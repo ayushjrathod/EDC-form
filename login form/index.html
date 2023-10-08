@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+</head>
+<img src="/Assets/edclogo.png" alt="" class="edclogo">
+<img src="/Assets/viitlogo.png" alt="" class="viitlogo">
+<body class="body">
+    <div class="main">
+        <div class="register">
+            <h2 class="register-name">FY Registration</h2>
+            <form id="register" method="post">
+                <label>Full Name</label>
+                <br>
+                <input type="text" name="name" id="name"
+                placeholder="Enter Your Full Name">
+                <br><br>
+
+                <label>Email</label>
+                <br>
+                <input type="email" name="email" id="email"
+                placeholder="Enter Your College Email">
+                <br><br>
+                
+                
+                <label for="college">Select Branch:</label> 
+                    <select name="college" id="college"> 
+                        <option value="AIDS">AI&DS</option> 
+                        <option value="CE(AI&ML)">CE(AI&ML)</option> 
+                        <option value="CE(AI)">CE(AI)</option> 
+                        <option value="CE(Iot,CS&BT)">CE(IoT,CS & BT)</option> 
+                        <option value="CE(Software Engineering)">CE(Software Engineering)</option> 
+                        <option value="CE(DS)">CE(DS)</option> 
+                        <option value="CE">CE</option> 
+                         <option value="IT">IT</option> 
+                         <option value="EnTc">EnTc</option> 
+                         <option value="Mechanical">Mechanical</option> 
+                         <option value="Civil">Civil</option> 
+                     </select>
+                <br><br>
+                 <label>Contact Number</label>
+                <br>
+                <input type="number" name="number1" id="number1"
+                placeholder="Enter Your Contact Number">
+                <br><br>               
+                
+                <label>PRN No.</label>
+                <br>
+                <input type="number" name="number2" id="number2"
+                placeholder="Enter Your PRN Number">
+                <br><br>               
+                
+                <label>Roll No.</label>
+                <br>
+                <input type="text" name="t2name" id="t2name"
+                placeholder="Enter Your Full Roll No.">
+                <br><br>               
+                
+                
+                <input type="submit" value="REGISTER"
+                name="submit" id="submit" class="submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
